@@ -1,0 +1,11 @@
+properties([pipelineTriggers([pollSCM('* * * * *')])])
+node {
+    stage("clone"){
+        git branch: 'master', url: 'https://github.com/dshriki/DevOps0609.git'
+    }
+    stage("execute") {
+        sh "chmod 777 a.sh"
+        sh "./a.sh"
+    }
+
+}
