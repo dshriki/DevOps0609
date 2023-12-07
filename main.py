@@ -1,4 +1,3 @@
-# This is a sample Python script.
 
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
@@ -8,7 +7,7 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 a=1
-b=2
+b=3
 
 
 
